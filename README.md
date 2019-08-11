@@ -6,7 +6,7 @@ In this project, I've implement SLAM (Simultaneous Localization and Mapping) for
 
 Below is an example of a 2D robot world with landmarks (purple x's) and the robot (a red 'o') located and found using only sensor and motion data collected by that robot. This is just one example for a 50x50 grid world; in this work I generated a variety of these maps.
 
-!(robot_world)[https://github.com/the-john/Graph_SLAM/blob/master/images/robot_world.png]
+![robot_world](https://github.com/the-john/Graph_SLAM/blob/master/images/robot_world.png)
 
 Example of SLAM output (estimated final robot pose and landmark locations).
 
