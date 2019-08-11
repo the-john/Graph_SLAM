@@ -83,8 +83,8 @@ class robot:
             Lx, Ly = self.landmarks[i]
         ## TODO: For each landmark
         ## 1. compute dx and dy, the distances between the robot and the landmark
-            dx = self.x - Lx
-            dy = self.y - Ly
+            dx = Lx - self.x
+            dy = Ly - self.y
         ## 2. account for measurement noise by *adding* a noise component to dx and dy
         ##    - The noise component should be a random value between [-1.0, 1.0)*measurement_noise
         ##    - Feel free to use the function self.rand() to help calculate this noise component
